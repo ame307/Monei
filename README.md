@@ -10,13 +10,13 @@ Unfortunately we wasted a lot of time with the design and documantation so we co
 
 ## Screenshots
 
-<img align="center" src="../../Design/Real Design/Regisztráció.png">
-<img align="center" src="../../Design/Real Design/Elfelejtett jelszó.png">
-<img align="center" src="../../Design/Real Design/Elfelejtett jelszó2.png">
-<img align="center" src="../../Design/Real Design/Elfelejtett jelszó3.png">
-<img align="center" src="../../Design/Real Design/Elfelejtett jelszó4.png">
-<img align="center" src="../../Design/Real Design/Bejelentkezés.png">
-<img align="center" src="../../Design/Real Design/Main.png">
+<img align="center" src="./Design/Real Design/Regisztráció.png">
+<img align="center" src="./Design/Real Design/Elfelejtett jelszó.png">
+<img align="center" src="./Design/Real Design/Elfelejtett jelszó2.png">
+<img align="center" src="./Design/Real Design/Elfelejtett jelszó3.png">
+<img align="center" src="./Design/Real Design/Elfelejtett jelszó4.png">
+<img align="center" src="./Design/Real Design/Bejelentkezés.png">
+<img align="center" src="./Design/Real Design/Main.png">
 
 ## Team members
 
@@ -26,4 +26,4 @@ Lázár Dávid</br>
 
 ## Links
 
-Original repository - https://github.com/ame307/Coding-Tomorrow-Cup
+Original repository - https://github.com/zsoltivady/Monei
