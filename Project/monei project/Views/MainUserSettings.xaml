@@ -1,0 +1,64 @@
+﻿<Window x:Class="monei_project.MainUserSettings"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:monei_project"
+        xmlns:vm="clr-namespace:monei_project.ViewModels"
+        mc:Ignorable="d"
+        Title="" MinHeight="450" MinWidth="650" Height="450" Width="650" WindowStyle="ToolWindow" FontFamily="Open Sans">
+    <Window.Resources>
+        <vm:MainUserSettingsViewModel  x:Key="MainUserSettingsViewModel"/>
+    </Window.Resources>
+    <Grid Background="#52abbb" DataContext="{Binding Source={StaticResource MainUserSettingsViewModel}}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+        </Grid.RowDefinitions>
+        <Label Grid.ColumnSpan="3" Grid.RowSpan="2"  FontSize="18" FontWeight="Bold" Foreground="White">Beállítások</Label>
+        <Label Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="2" Foreground="White">Felhasználónév:</Label>
+        <TextBox Name="tb_felhasznalonev" Grid.Column="3" Grid.Row="2" Grid.ColumnSpan="3" Foreground="Black"></TextBox>
+        <Label Grid.Column="1" Grid.Row="4" Grid.ColumnSpan="2" Foreground="White">Vezetéknév:</Label>
+        <TextBox Name="tb_vezeteknev" Grid.Column="3" Grid.Row="4" Grid.ColumnSpan="3" Foreground="Black"></TextBox>
+        <Label Grid.Column="1" Grid.Row="6" Grid.ColumnSpan="2" Foreground="White">Keresztnév:</Label>
+        <TextBox Name="tb_keresztnev" Grid.Column="3" Grid.Row="6" Grid.ColumnSpan="3" Foreground="Black"></TextBox>
+        <Label Grid.Column="1" Grid.Row="8" Grid.ColumnSpan="2" Foreground="White">Régi Jelszó:</Label>
+        <TextBox Name="tb_regijelszo" Grid.Column="3" Grid.Row="8" Grid.ColumnSpan="3" Foreground="Black"></TextBox>
+        <Label Grid.Column="1" Grid.Row="10" Grid.ColumnSpan="2" Foreground="White">Új jelszó:</Label>
+        <TextBox Name="tb_ujjelszo" Grid.Column="3" Grid.Row="10" Grid.ColumnSpan="3" Foreground="Black"></TextBox>
+        <Label Grid.Column="1" Grid.Row="12" Grid.ColumnSpan="2" Foreground="White">Új jelszó újra:</Label>
+        <TextBox Name="tb_ujjelszo_ujra" Grid.Column="3" Grid.Row="12" Grid.ColumnSpan="3" Foreground="Black"></TextBox>
+
+        <Button Grid.Column="5" Grid.Row="14" Grid.ColumnSpan="3" Foreground="Black" Background="White" BorderBrush="{x:Null}" FontWeight="Bold"> Adatok Frissítése</Button>
+
+    </Grid>
+</Window>

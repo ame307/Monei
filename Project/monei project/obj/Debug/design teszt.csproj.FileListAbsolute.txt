@@ -1,0 +1,65 @@
+F:\labor app\design teszt\design teszt\bin\Debug\design teszt.exe.config
+F:\labor app\design teszt\design teszt\bin\Debug\design teszt.exe
+F:\labor app\design teszt\design teszt\bin\Debug\design teszt.pdb
+F:\labor app\design teszt\design teszt\obj\Debug\MainWindow.g.cs
+F:\labor app\design teszt\design teszt\obj\Debug\App.g.cs
+F:\labor app\design teszt\design teszt\obj\Debug\design teszt_MarkupCompile.cache
+F:\labor app\design teszt\design teszt\obj\Debug\design teszt_MarkupCompile.lref
+F:\labor app\design teszt\design teszt\obj\Debug\MainWindow.baml
+F:\labor app\design teszt\design teszt\obj\Debug\design teszt.g.resources
+F:\labor app\design teszt\design teszt\obj\Debug\design_teszt.Properties.Resources.resources
+F:\labor app\design teszt\design teszt\obj\Debug\design teszt.csproj.GenerateResource.cache
+F:\labor app\design teszt\design teszt\obj\Debug\design teszt.csproj.CoreCompileInputs.cache
+F:\labor app\design teszt\design teszt\obj\Debug\design teszt.exe
+F:\labor app\design teszt\design teszt\obj\Debug\design teszt.pdb
+F:\labor app\design teszt\design teszt\obj\Debug\Views\LoginView.g.cs
+F:\labor app\design teszt\design teszt\obj\Debug\Views\LoginView.baml
+F:\labor app\design teszt\design teszt\obj\Debug\Views\RegistrationView.g.cs
+F:\labor app\design teszt\design teszt\obj\Debug\Views\RegistrationView.baml
+F:\labor app\design teszt\design teszt\obj\Debug\Views\fokepernyo.g.cs
+F:\labor app\design teszt\design teszt\obj\Debug\Views\fokepernyo.baml
+F:\labor app\design teszt\design teszt\obj\Debug\Views\Elfelejtett1View.g.cs
+F:\labor app\design teszt\design teszt\obj\Debug\Views\Elfelejtett1View.baml
+F:\labor app\design teszt\design teszt\obj\Debug\design teszt.csprojAssemblyReference.cache
+F:\labor app\design teszt\design teszt\obj\Debug\Views\Elfelejtett2View.g.cs
+F:\labor app\design teszt\design teszt\obj\Debug\Views\Elfelejtett3View.g.cs
+F:\labor app\design teszt\design teszt\obj\Debug\Views\Elfelejtett4View.g.cs
+F:\labor app\design teszt\design teszt\obj\Debug\Views\Elfelejtett2View.baml
+F:\labor app\design teszt\design teszt\obj\Debug\Views\Elfelejtett3View.baml
+F:\labor app\design teszt\design teszt\obj\Debug\Views\Elfelejtett4View.baml
+F:\labor app\design teszt\design teszt\obj\Debug\Views\RegistrationView2.g.cs
+F:\labor app\design teszt\design teszt\obj\Debug\Views\RegistrationView2.baml
+D:\Files\2018\PROG\Visual\Projects\alkalmazás\design teszt\bin\Debug\design teszt.exe.config
+D:\Files\2018\PROG\Visual\Projects\alkalmazás\design teszt\obj\Debug\design teszt.exe
+D:\Files\2018\PROG\Visual\Projects\alkalmazás\design teszt\obj\Debug\design teszt.pdb
+D:\Files\2018\PROG\Visual\Projects\alkalmazás\design teszt\obj\Debug\design teszt.csprojResolveAssemblyReference.cache
+D:\Files\2018\PROG\Visual\Projects\alkalmazás\design teszt\obj\Debug\MainWindow.g.cs
+D:\Files\2018\PROG\Visual\Projects\alkalmazás\design teszt\obj\Debug\Views\LoginView.g.cs
+D:\Files\2018\PROG\Visual\Projects\alkalmazás\design teszt\obj\Debug\Views\RegistrationView.g.cs
+D:\Files\2018\PROG\Visual\Projects\alkalmazás\design teszt\obj\Debug\Views\RegistrationView2.g.cs
+D:\Files\2018\PROG\Visual\Projects\alkalmazás\design teszt\obj\Debug\App.g.cs
+D:\Files\2018\PROG\Visual\Projects\alkalmazás\design teszt\obj\Debug\design teszt_MarkupCompile.cache
+D:\Files\2018\PROG\Visual\Projects\alkalmazás\design teszt\obj\Debug\design teszt_MarkupCompile.lref
+D:\Files\2018\PROG\Visual\Projects\alkalmazás\design teszt\bin\Debug\design teszt.exe
+D:\Files\2018\PROG\Visual\Projects\alkalmazás\design teszt\bin\Debug\design teszt.pdb
+D:\Files\2018\PROG\Visual\Projects\alkalmazás\design teszt\obj\Debug\MainWindow.baml
+D:\Files\2018\PROG\Visual\Projects\alkalmazás\design teszt\obj\Debug\Views\LoginView.baml
+D:\Files\2018\PROG\Visual\Projects\alkalmazás\design teszt\obj\Debug\Views\RegistrationView.baml
+D:\Files\2018\PROG\Visual\Projects\alkalmazás\design teszt\obj\Debug\Views\RegistrationView2.baml
+D:\Files\2018\PROG\Visual\Projects\alkalmazás\design teszt\obj\Debug\design teszt.g.resources
+D:\Files\2018\PROG\Visual\Projects\alkalmazás\design teszt\obj\Debug\design_teszt.Properties.Resources.resources
+D:\Files\2018\PROG\Visual\Projects\alkalmazás\design teszt\obj\Debug\design teszt.csproj.GenerateResource.Cache
+D:\Files\2018\PROG\Visual\Projects\alkalmazás\design teszt\obj\Debug\Views\ForgottenPwdView1.g.cs
+D:\Files\2018\PROG\Visual\Projects\alkalmazás\design teszt\obj\Debug\Views\ForgottenPwdView2.g.cs
+D:\Files\2018\PROG\Visual\Projects\alkalmazás\design teszt\obj\Debug\Views\ForgottenPwdView3.g.cs
+D:\Files\2018\PROG\Visual\Projects\alkalmazás\design teszt\obj\Debug\Views\ForgottenPwdView4.g.cs
+D:\Files\2018\PROG\Visual\Projects\alkalmazás\design teszt\obj\Debug\Views\Main.g.cs
+D:\Files\2018\PROG\Visual\Projects\alkalmazás\design teszt\obj\Debug\Views\ForgottenPwdView1.baml
+D:\Files\2018\PROG\Visual\Projects\alkalmazás\design teszt\obj\Debug\Views\ForgottenPwdView2.baml
+D:\Files\2018\PROG\Visual\Projects\alkalmazás\design teszt\obj\Debug\Views\ForgottenPwdView3.baml
+D:\Files\2018\PROG\Visual\Projects\alkalmazás\design teszt\obj\Debug\Views\ForgottenPwdView4.baml
+D:\Files\2018\PROG\Visual\Projects\alkalmazás\design teszt\obj\Debug\Views\Main.baml
+D:\Files\2018\PROG\Visual\Projects\alkalmazás\design teszt\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\tesa3\Downloads\MONEi\Monei002\design teszt\bin\Debug\design teszt.exe.config
+C:\Users\tesa3\Downloads\MONEi\Monei002\design teszt\obj\Debug\design teszt.exe
+C:\Users\tesa3\Downloads\MONEi\Monei002\design teszt\obj\Debug\design teszt.pdb

@@ -1,0 +1,89 @@
+﻿<UserControl x:Class="monei_project.Views.fokepernyo"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:monei_project.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="720" d:DesignWidth="1280" FontFamily="Open Sans">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/monei project;component/Pictures/fokepernyo.png"/>
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+        </Grid.RowDefinitions>
+
+        <TextBlock Name="tb_Sajat" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="3" Background="#52abbb" Foreground="White" MouseDown="tb_Sajat_MouseDown">Saját tárca</TextBlock>
+        <TextBlock Name="tb_Megosztott" Grid.Column="3" Grid.Row="0" Grid.ColumnSpan="3" Background="#287497" Foreground="White" MouseDown="tb_Megosztott_MouseDown">Megosztott tárca</TextBlock>
+        <Rectangle Grid.Column="0" Grid.Row="1" Grid.RowSpan="12" Grid.ColumnSpan="6" Fill="#52abbb"></Rectangle>
+
+        <Label  Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="6" VerticalAlignment="Center" Foreground="White" HorizontalAlignment="Center" FontSize="20">Erste főszámla</Label>
+        <Label  Grid.Column="0" Grid.Row="4" Grid.ColumnSpan="6" VerticalAlignment="Center" Foreground="White" HorizontalAlignment="Center" FontSize="20">Erste mellékszámla</Label>
+
+
+        <Rectangle Grid.Column="6" Grid.Row="0" Grid.RowSpan="1" Grid.ColumnSpan="22" Fill="#013542"></Rectangle>
+        <DataGrid x:Name="dgTarcaTablazat" Grid.Column="6" Grid.Row="1" Grid.RowSpan="12" Grid.ColumnSpan="16"/>
+        
+        <Label x:Name="lblFelhasznaloNev" Grid.Column="0" Grid.Row="12" Grid.ColumnSpan="3" VerticalAlignment="Bottom" MouseDown="lblFelhasznaloNev_MouseDown" Foreground="White">Felhasználónév</Label>
+
+        <Label  Grid.Column="13" Grid.Row="0" Grid.ColumnSpan="2" VerticalAlignment="Center" Foreground="White" FontSize="16">Egyenleg:</Label>
+        <Label x:Name="lblEgyenlegOsszeg1" Grid.Column="15" Grid.Row="0" Grid.ColumnSpan="4" VerticalAlignment="Center" Foreground="White" FontFamily="Open Sans SemiBold" FontSize="24">$111.00</Label>
+
+        <Rectangle Grid.Column="22" Grid.Row="2" Grid.RowSpan="11" Grid.ColumnSpan="6" Fill="#287497"></Rectangle>
+        <Label  Grid.Column="22" Grid.Row="2" Grid.ColumnSpan="6" VerticalAlignment="Bottom" Foreground="White" HorizontalAlignment="Center">Összes pénz:</Label>
+        <Label  Grid.Column="22" Grid.Row="3" Grid.ColumnSpan="6" VerticalAlignment="Center" Foreground="White" HorizontalAlignment="Center" FontSize="20">$600.00</Label>
+        <Label  Grid.Column="22" Grid.Row="4" Grid.ColumnSpan="6" VerticalAlignment="Bottom" Foreground="White" HorizontalAlignment="Center">Összes pénz:</Label>
+        <Label  Grid.Column="22" Grid.Row="5" Grid.ColumnSpan="6" VerticalAlignment="Center" Foreground="White" HorizontalAlignment="Center" FontSize="20">$600.00</Label>
+
+
+
+        <TextBlock Grid.Column="22" Grid.Row="1" Grid.ColumnSpan="3" Background="#287497" Foreground="White" MouseDown="TextBlock_MouseDown">Statisztika</TextBlock>
+        <TextBlock Grid.Column="25" Grid.Row="1" Grid.ColumnSpan="3" Background="#52abbb" Foreground="White" MouseDown="TextBlock_MouseDown_1">Jogok</TextBlock>
+
+
+
+    </Grid>
+</UserControl>

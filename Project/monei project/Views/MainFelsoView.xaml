@@ -1,0 +1,42 @@
+﻿<UserControl x:Class="monei_project.MainFelsoView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:monei_project"
+             xmlns:vm="clr-namespace:monei_project.ViewModels"
+             mc:Ignorable="d" 
+             d:DesignHeight="100" d:DesignWidth="2200" FontFamily="Open Sans">
+    <UserControl.Resources>
+        <vm:MainFelsoViewModel  x:Key="MainFelsoViewModel"/>
+    </UserControl.Resources>
+    <Grid DataContext="{Binding Source={StaticResource MainFelsoViewModel}}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+        <Rectangle Grid.RowSpan="1" Grid.ColumnSpan="22" Fill="#013542"></Rectangle>
+        <Label Grid.Column="6" Grid.ColumnSpan="2" VerticalAlignment="Center" Foreground="White" FontSize="16">Balance:</Label>
+        <Label x:Name="lblBalance" Grid.Column="8" Grid.ColumnSpan="5" VerticalAlignment="Center" Foreground="White" FontFamily="Open Sans SemiBold" FontSize="24" Content="{Binding Balance}"></Label>
+    </Grid>
+</UserControl>
